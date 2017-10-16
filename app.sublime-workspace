@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"app",
+				"approximate_size〔function〕"
+			],
+			[
+				"a",
+				"a_kilobyte_is_1024_bytes"
+			],
+			[
+				"div",
+				"divStyle"
+			],
+			[
+				"formC",
+				"formControlsSelectMultiple"
+			],
+			[
+				"form",
+				"formControlsTextarea"
+			],
+			[
+				"fi",
+				"findSum"
+			],
+			[
+				"Login",
+				"LoginDropdown"
+			],
+			[
+				"Cook",
+				"CookieSelected"
+			],
+			[
+				"key",
+				"key"
+			],
+			[
+				"searc",
+				"searchSectionId"
+			],
+			[
+				"filte",
+				"filteredSections"
+			],
+			[
+				"per",
+				"percent"
+			],
+			[
+				"percen",
+				"percentage"
+			],
+			[
+				"connect",
+				"connectedTime"
+			],
+			[
+				"create",
+				"createdUserPW"
+			],
+			[
+				"val",
+				"validationError"
+			],
+			[
+				"user",
+				"userFullNameValue"
+			],
+			[
+				"disable",
+				"disableSubmit"
+			],
+			[
+				"dis",
+				"disableSubmit"
+			],
+			[
+				"disabl",
+				"disableSubmit"
+			],
+			[
+				"submit",
+				"submitError"
+			],
+			[
+				"submi",
+				"submitError"
+			],
+			[
+				"Create",
+				"CreateUserMutation"
+			],
+			[
+				"handl",
+				"handleSectionExpand"
+			],
+			[
+				"Orga",
+				"OrganizationStudentsSection"
+			],
+			[
+				"Or",
+				"OrganizationStudentsSection"
+			],
+			[
+				"Org",
+				"OrganizationStudentsSidebar"
+			],
+			[
+				"handle",
+				"handleAccordionExpand"
+			],
+			[
+				"seci",
+				"sectionNameValue"
+			],
+			[
+				"email",
+				"emailAddress"
+			],
+			[
+				"ema",
+				"emailAddress"
+			],
+			[
+				"acto",
+				"actor_map"
+			],
+			[
+				"curr",
+				"currPair"
+			],
+			[
+				"movie",
+				"movie_map"
+			],
+			[
+				"Actor",
+				"ActorGraph"
+			],
+			[
+				"series",
+				"series_7_exam〔variable〕"
+			],
+			[
+				"produc",
+				"product_id"
+			],
+			[
+				"componen",
+				"components"
+			],
+			[
+				"con",
+				"count"
+			],
+			[
+				"de",
+				"deleteAll"
+			],
+			[
+				"BITINP",
+				"BITINPUTSTREAM_H"
+			],
+			[
+				"BITOUT",
+				"BITOUTPUTSTREAM_H"
+			],
+			[
+				"z",
+				"z"
+			],
+			[
+				"ab",
+				"ab"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"ar",
+				"ar"
+			],
+			[
+				"Dictio",
+				"DictionaryTrie"
+			],
+			[
+				"Dictiona",
+				"DictionaryBST"
+			],
+			[
+				"autcom",
+				"autocomplete"
+			],
+			[
+				"replace",
+				"replaceStr"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"BSTI",
+				"BSTNodeInt"
+			],
+			[
+				"upda",
+				"updateFreq"
+			],
+			[
+				"Dict",
+				"DictionaryTrie"
+			],
+			[
+				"m",
+				"main\tmain()"
+			],
+			[
+				"the",
+				"theVector"
+			],
+			[
+				"mul",
+				"multipliedByTwo〔variable〕"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"value",
+				"valuePlusOneHundred〔variable〕"
+			],
+			[
+				"current",
+				"currentNum"
+			],
+			[
+				"res",
+				"resultStyle〔variable〕"
+			],
+			[
+				"Reac",
+				"ReactDOM"
+			],
+			[
+				"imm",
+				"immutable"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"book",
+				"book"
+			],
+			[
+				"selec",
+				"selectBook"
+			],
+			[
+				"HT",
+				"HtmlWebpackPlugin"
+			],
+			[
+				"calcul",
+				"calculateScores"
+			],
+			[
+				"play",
+				"playerTwoData"
+			],
+			[
+				"player",
+				"playerOneData"
+			],
+			[
+				"getPla",
+				"getPlayersData"
+			],
+			[
+				"github",
+				"githubHelpers"
+			],
+			[
+				"col-sm",
+				"col-sm-offset-3"
+			],
+			[
+				"col",
+				"col-sm-6"
+			],
+			[
+				"React",
+				"ReactRouter"
+			],
+			[
+				"prof",
+				"ProfileLink"
+			],
+			[
+				"Pr",
+				"ProfileName"
+			],
+			[
+				"profi",
+				"ProfilePic"
+			],
+			[
+				"Html",
+				"HtmlWebpackPluginConfig"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 277.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimeLinter",
+				"SublimeLinter: Lint This View"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Daniel/Desktop/ScreenCapture/index.html",
+		"/Users/Daniel/Desktop/humansize.py",
+		"/Users/Daniel/Desktop/week1.py",
+		"/Users/Daniel/Desktop/reactExpress/app.js",
+		"/Users/Daniel/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/Daniel/GoLang/src/hello.go",
+		"/Users/Daniel/Desktop/Danielcplau.com/src/components/About.js",
+		"/Users/Daniel/Desktop/Danielcplau.com/src/components/Home.js",
+		"/Users/Daniel/Desktop/Danielcplau.com/src/components/Contact.js",
+		"/Users/Daniel/Desktop/Danielcplau.com/src/components/Projects.js",
+		"/Users/Daniel/Desktop/Danielcplau.com/src/components/Site.js",
+		"/Users/Daniel/Desktop/Danielcplau.com/src/components/Portfolio.js",
+		"/Users/Daniel/Desktop/Danielcplau.com/src/index.js",
+		"/Users/Daniel/Downloads/method-draw-image.svg",
+		"/Users/Daniel/Desktop/Java/Hangman/src/Hangman.java",
+		"/Users/Daniel/Desktop/WaterShedJS/.gitignore",
+		"/Users/Daniel/Desktop/WaterShedJS/src/components/Header.js",
+		"/Users/Daniel/Desktop/WaterShedJS/index.html",
+		"/Users/Daniel/Desktop/Dropbox/UCSD CSE/CSE150/HW2/Word.java",
+		"/Users/Daniel/Desktop/Dropbox/UCSD CSE/CSE150/HW2/Hangman.java",
+		"/Users/Daniel/Desktop/Word.java",
+		"/Users/Daniel/Desktop/Hangman.java",
+		"/Users/Daniel/Desktop/achievable-native/src/containers/LearnApp/sagas.js",
+		"/Users/Daniel/Desktop/achievable-native/src/containers/LearnApp/reducer.js",
+		"/Users/Daniel/Desktop/achievable-native/src/containers/LearnApp/selectors.js",
+		"/Users/Daniel/Desktop/achievable-native/src/containers/LearnApp/actions.js",
+		"/Users/Daniel/Desktop/achievable-native/src/components/LearnAppHeader/index.js",
+		"/Users/Daniel/Desktop/achievable-native/src/containers/App/index.js",
+		"/Users/Daniel/Desktop/achievable-native/src/reducers.js",
+		"/Users/Daniel/Desktop/achievable-native/src/containers/App/reducer.js",
+		"/Users/Daniel/Desktop/achievable-native/src/store.js",
+		"/Users/Daniel/Desktop/GoGoGo/src/crawler/artooSpider.js",
+		"/Users/Daniel/Desktop/Max.java",
+		"/Users/Daniel/Downloads/phantomjs-2.1.1-macosx/bin/start.js",
+		"/Users/Daniel/Desktop/start.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Home/Home.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Shows/Shows.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Navbar/NavbarComponent.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Navbar/Navbar.scss",
+		"/Users/Daniel/Desktop/3Sum.java",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/README.md",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/LandingPage/LandingPage.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/SearchShows/SearchShows.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/SearchShows/SearchShows.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/ShowList/ShowList.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/ShowList/ShowList.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/ShowItem/ShowItem.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Shows/Shows.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/SearchItem/SearchItem.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/ShowSearchBar/ShowSearchBar.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/ShowItem/ShowItem.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/LandingPage/LandingPage.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Home/Home.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/routes/Route.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/index.html",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Footer/Footer.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/ShowSearchBar/ShowSearchBar.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/LoginDropdown/LoginDropdown.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/LoginDropdown/LoginDropdown.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Footer/FooterComponent.js",
+		"/Users/Daniel/Desktop/achievable-native/src/components/ScreenActions/index.js",
+		"/Users/Daniel/Desktop/achievable-native/src/components/Choice/index.js",
+		"/Users/Daniel/Desktop/achievable-native/index.ios.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/variables.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/assets/postcss.png",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/components/Sim.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/components/App.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/components/Calibration.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/reducers/calibration_reducer.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/actions/CalibrationActions.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/reducers/index.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/reducers/mission.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/utils/AuthService.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/utils/jwtHelper.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Home/LandingPage.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Home/LandingPage.scss",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/Main/Main.js",
+		"/Users/Daniel/Desktop/React Apps/reactFullStack/client/components/App/Home.js",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/components/Navbar/NavbarComponent.js",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/utils/AuthService.js",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/components/App/AppComponent.js",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/components/Main/Main.js",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/components/Navbar/Navbar.scss",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/components/variables.scss",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/components/App/App.scss",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/components/Login/Login.js",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/components/Home/Home.js",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/client/routes/Route.js",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/package.json",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/README.md",
+		"/Users/Daniel/Desktop/React Apps/relay-fullstack/server/config/environment/index.js",
+		"/Users/Daniel/Desktop/devops/site.yml",
+		"/Users/Daniel/Desktop/Prime.java",
+		"/Users/Daniel/Desktop/Fib.java",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/build/index.html",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/index.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/components/Map/PositionMarker.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/index.html",
+		"/Users/Daniel/Desktop/MyGraphicsLogic.java",
+		"/Users/Daniel/Desktop/Test.java",
+		"/Users/Daniel/Desktop/MyInteger.java",
+		"/Users/Daniel/Desktop/achievable-admin/app/components/OrganizationStudentsSidebar/index.js",
+		"/Users/Daniel/Desktop/achievable-admin/app/components/UserSearchBar/index.js",
+		"/Users/Daniel/Desktop/achievable-admin/node_modules/ajv-keywords/keywords/propertyNames.js",
+		"/Users/Daniel/Desktop/achievable-admin/app/containers/OrganizationStudents/index.js",
+		"/Users/Daniel/Desktop/achievable-admin/app/components/OrganizationStudentsSection/index.js",
+		"/Users/Daniel/Desktop/achievable-admin/app/containers/OrganizationUser/index.js",
+		"/Users/Daniel/Desktop/React Apps/danielcplau.com/src/components/Home.js",
+		"/Users/Daniel/Desktop/Java/BinarySearch.java",
+		"/Users/Daniel/Desktop/Graph2.txt",
+		"/Users/Daniel/Desktop/Graph.java",
+		"/Users/Daniel/Desktop/DFS.java",
+		"/Users/Daniel/Desktop/input_1.txt",
+		"/Users/Daniel/Desktop/Parser.java",
+		"/Users/Daniel/Desktop/Graph.txt",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/components/Interop.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/routes.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/components/MyNavbar.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/src/MissionControl/components/MissionControl.js",
+		"/Users/Daniel/Desktop/UCSD_GCS/scripts/sitl.py",
+		"/Users/Daniel/Desktop/UCSD_GCS/server/src/server.py",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/package.json",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionEdit/package.json",
+		"/Users/Daniel/Desktop/UCSD_GCS/client/MissionControl/yarn.lock",
+		"/Users/Daniel/Desktop/achievable-admin/app/components/CreateStudentWidget/index.js",
+		"/Users/Daniel/Desktop/achievable-admin/graphql/types/mutations/createUserMutation.js",
+		"/Users/Daniel/Desktop/achievable-admin/graphql/types/mutation.js",
+		"/Users/Daniel/Desktop/achievable-admin/graphql/types/section.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime-main-output":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

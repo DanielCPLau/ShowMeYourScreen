@@ -1,0 +1,17 @@
+{
+  "name": "Daniel's Screen Capture Sharing",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "Daniel.jpg",
+    "128": "Daniel.jpg"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "desktopCapture"
+  ]
+}
