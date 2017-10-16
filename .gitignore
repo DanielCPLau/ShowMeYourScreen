@@ -1,1 +1,5 @@
 Daniel.jpg
+/node_modules
+/dist
+npm-debug.log
+extension/app.sublime-workspace

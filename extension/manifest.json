@@ -3,15 +3,18 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "icons": {
-    "16": "Daniel.jpg",
-    "128": "Daniel.jpg"
+    "16": "logo.png",
+    "128": "smallicon.png"
   },
-  "app": {
-    "background": {
-      "scripts": ["background.js"]
-    }
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "externally_connectable": {
+    "matches": ["http://localhost/*"]
   },
   "permissions": [
-    "desktopCapture"
+    "desktopCapture",
+    "http://localhost/*",
+    "tabs"
   ]
 }

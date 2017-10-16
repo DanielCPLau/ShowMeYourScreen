@@ -6,7 +6,7 @@
  * @see https://developer.chrome.com/apps/desktopCapture
  */
 
- //logo #60b0f4
+//logo #60b0f4
 var desktop_sharing = false;
 var local_stream = null;
 function toggle() {
