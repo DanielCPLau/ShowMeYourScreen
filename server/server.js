@@ -58,9 +58,11 @@ io.use(p2pserver)
 
 io.on('connection', function (socket) {
   console.log('something connected')
-  socket.on('start-stream', function (data) {
-    console.log('Stream started')
-    socket.broadcast.emit('start-stream', data)
-    console.log('Stream broadcast')
+  socket.on('stop-stream', function () {
+    socket.broadcast.emit('stop-stream', {})
   })
 });
+
+io.on('disconnect', function () {
+  console.log('someonedisconnected')
+})

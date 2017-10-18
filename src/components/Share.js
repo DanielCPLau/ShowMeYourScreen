@@ -4,7 +4,6 @@ import openSocket from 'socket.io-client';
 import SimplePeer from 'simple-peer';
 var P2P = require('socket.io-p2p');
 var io = require('socket.io-client');
-var socket = null;
 
 class Share extends Component {
   constructor(props) {
@@ -19,17 +18,12 @@ class Share extends Component {
     this.getVideoId = this.getVideoId.bind(this);
     this.receiveId = this.receiveId.bind(this);
 
-    var socket = io('http://localhost:8000')
-    var p2p = new P2P(socket)
-
-    p2p.on('start-stream', function () {
-      p2p.usePeerConnection = true
-      console.log('set true')
-    })
+    var socket = io('http://localhost:8000');
+    var p2p = new P2P(socket);
 
     p2p.on('stream', function (stream) {
       console.log('stream from share')
-    })
+    });
   }
 
   receiveId(response) {
@@ -54,10 +48,13 @@ class Share extends Component {
       var stopTrack = this.state.stream.getTracks()[0];
       stopTrack.stop();
       
+      var socket = io('http://localhost:8000');
+      socket.emit('stop-stream', {});
+      socket.destroy();
       this.setState({
         broadcasting: false,
         videoId: ''
-      })
+      });
     }
   }
 
@@ -75,21 +72,14 @@ class Share extends Component {
                 maxHeight: 720
             }
         }
-    }, (stream) => {
-      //should be rtc sending stream
-      // socket.emit('host', stream)
-      var socket = io('http://localhost:8000')
-      var p2p = new P2P(socket, {peerOpts: {stream}})
-
-      p2p.on('ready', function () {
-        p2p.usePeerConnection = true
-      })
-
-      p2p.emit('ready', { peerId: p2p.peerId })
-
-      this.setState({broadcasting: true, stream});
-      document.querySelector('video').src = URL.createObjectURL(stream)}, () => {});
-      document.querySelector('button').innerHTML = "Stop Broadcasting Screen";
+      }, (stream) => {
+        var socket = io('http://localhost:8000')
+        var p2p = new P2P(socket, {peerOpts: {stream}})
+        socket.emit('start-stream', {stream})
+        this.setState({broadcasting: true, stream});
+        document.querySelector('video').src = URL.createObjectURL(stream);
+        document.querySelector('button').innerHTML = "Stop Broadcasting Screen";
+      }, () => {});
     }
     return(
       <div style={divStyle}>

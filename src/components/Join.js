@@ -7,6 +7,8 @@ var P2P = require('socket.io-p2p');
 var io = require('socket.io-client');
 
 // var socket = null;
+var mediaStream = null;
+var url = null;
 class Join extends Component {
   constructor() {
     super();
@@ -16,31 +18,36 @@ class Join extends Component {
     }
 
     this.initiateWsConnection = this.initiateWsConnection.bind(this);
+  }
+
+  componentDidMount() {
     var socket = io('http://localhost:8000')
     var p2p = new P2P(socket)
 
-    p2p.on('start-stream', function () {
-      p2p.usePeerConnection = true
-      console.log('set true')
-    })
+    var func = this.initiateWsConnection;
+    p2p.on('stop-stream', function() {
+      func(document)
+    });
 
     p2p.on('stream', function (stream) {
       console.log('stream for join')
-      document.querySelector('video').src = URL.createObjectURL(stream);
-    })
+      mediaStream = stream;
+      url = URL.createObjectURL(stream);
+    });
   }
-
-  initiateWsConnection() {
-    this.setState({receiving: true})
-    document.querySelector('button').innerHTML = "Unjoin Screen Share";
-  }
-
-  handleOpen() {
-    console.log("opened")
-  }
-
-  handleMsg(msg) {
-    console.log('msg received')
+  initiateWsConnection(document) {
+    if (this.state.receiving == false) {
+      this.setState({receiving: true})
+      document.querySelector('video').src = url;
+      document.querySelector('button').innerHTML = "Unjoin Screen Share";
+    } else {
+      this.setState({receiving: false})
+      var vid = document.getElementById("video");
+      document.querySelector('button').innerHTML = "Join Screen Share";
+      vid.pause();
+      vid.removeAttribute("src");
+      vid.load();
+    }
   }
 
   render() {
@@ -55,7 +62,7 @@ class Join extends Component {
             }
           } 
           id="button" 
-          onClick={this.initiateWsConnection}
+          onClick={this.initiateWsConnection.bind(this, document)}
         >
           Join Screen Share
         </button>
