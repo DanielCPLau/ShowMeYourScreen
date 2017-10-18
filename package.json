@@ -3,11 +3,20 @@
     "dev": "webpack-dev-server --config webpack.config.js --progress --colors"
   },
   "dependencies": {
+    "express": "^4.16.2",
+    "open": "0.0.5",
+    "path": "^0.12.7",
     "react": "~15.4.2",
     "react-dom": "~15.4.2",
     "react-redux": "~5.0.2",
     "react-router": "^3.0.0",
-    "redux": "~3.6.0"
+    "react-websocket": "^1.2.0",
+    "redux": "~3.6.0",
+    "simple-peer": "^8.1.1",
+    "socket.io": "^2.0.3",
+    "socket.io-p2p": "^2.2.0",
+    "socket.io-p2p-server": "^1.2.0",
+    "ws": "^3.2.0"
   },
   "devDependencies": {
     "babel-core": "~6.23.1",

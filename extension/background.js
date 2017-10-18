@@ -23,7 +23,7 @@ function getId(sendResponse) {
   chrome.tabs.query(
   {currentWindow: true, active : true},
   (tabs) => {
-    chrome.desktopCapture.chooseDesktopMedia(["screen", "window"], tabs[0], (id) => sendResponse({id}));
+    chrome.desktopCapture.chooseDesktopMedia(["screen", "window", "tab", "audio"], tabs[0], (id) => sendResponse({id}));
   }
 )
   
