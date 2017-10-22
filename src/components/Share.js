@@ -24,6 +24,7 @@ class Share extends Component {
     p2p.on('stream', function (stream) {
       console.log('stream from share')
     });
+
   }
 
   receiveId(response) {
@@ -74,8 +75,11 @@ class Share extends Component {
         }
       }, (stream) => {
         var socket = io('http://localhost:8000')
-        var p2p = new P2P(socket, {peerOpts: {stream}})
-        socket.emit('start-stream', {stream})
+        var p2p = new P2P(socket, {peerOpts: {stream}});
+        p2p.on('get-stream', function () {
+          console.log('give stream')
+          p2p.emit('stream', {stream});
+        });
         this.setState({broadcasting: true, stream});
         document.querySelector('video').src = URL.createObjectURL(stream);
         document.querySelector('button').innerHTML = "Stop Broadcasting Screen";

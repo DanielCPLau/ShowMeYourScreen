@@ -57,9 +57,12 @@ server.listen(8000, function () {
 io.use(p2pserver)
 
 io.on('connection', function (socket) {
-  console.log('something connected')
+  socket.broadcast.emit('restart-stream', {});
   socket.on('stop-stream', function () {
     socket.broadcast.emit('stop-stream', {})
+  })
+  socket.on('get-stream', function() {
+    socket.broadcast.emit('get-stream', {})
   })
 });
 

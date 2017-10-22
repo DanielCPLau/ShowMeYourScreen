@@ -28,13 +28,16 @@ class Join extends Component {
     p2p.on('stop-stream', function() {
       func(document)
     });
-
+    socket.emit('get-stream', () => {
+      console.log(p2p);
+    });
     p2p.on('stream', function (stream) {
       console.log('stream for join')
       mediaStream = stream;
       url = URL.createObjectURL(stream);
     });
   }
+
   initiateWsConnection(document) {
     if (this.state.receiving == false) {
       this.setState({receiving: true})
